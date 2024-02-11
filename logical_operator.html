@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       //Binary 
+        //Logical AND and OR operator is used with 2 or more conditions
+        //1. Logical AND && => will get result as true when ALL of the conditions are true
+         //if one of the condition is false then  you will get result as false
+       
+        let x=25,y=45;
+        document.write("<br><h1> Logical AND Operator</h1>");
+        document.write("<br>Logical AND ="+((x > y) && (x==y)));//f
+        document.write("<br>Logical AND ="+((x > y) && (x!=y)));//f
+        document.write("<br>Logical AND ="+((x < y) && (x!=y)));//T
+
+        //2. Logical OR || => will get result as true when either one or all of the conditions are true
+
+        document.write("<br><br><h1> Logical OR Operator</h1>");
+        document.write("<br>Logical OR ="+((x > y) || (x==y)));//f
+        document.write("<br>Logical OR ="+((x > y) || (x!=y)));//T
+        document.write("<br>Logical OR ="+((x < y) || (x!=y)));//T
+        
+        //3.Logical NOT operator is used to invert the result of logical condition from true to false or false to true
+        document.write("<br>Logical NOT ="+!(x==y));
+    </script>
+</body>
+</html>

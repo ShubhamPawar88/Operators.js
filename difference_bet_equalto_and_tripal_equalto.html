@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=88;
+        let b='88';
+        //== equal to operator check the equality of the operands based on contents present(means contents should be same,datatype does not matter) between them it does not check datatype of the values...or it performs datatype casting/conversion
+        document.write("== equal to returns :"+(a==b)+"<br>");//true
+
+        //=== equal to operator check the equality of the operands based on contents as well as datatype of the operand because,it does not perform datatype casting ..
+          //in below statement, a is having number value and  b is having string value...both datatypes are different and hence it returns false.
+
+        document.write("===  tripal equal to returns :"+(a===b)+"<br>");//false
+    </script>
+</body>
+</html>

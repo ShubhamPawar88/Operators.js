@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=8,b;
+        document.write("before asssigning a to b, b ="+b+"<br>");
+        b=a;
+        document.write("after asssigning a to b, b ="+b+"<br>");
+         //+- plus assignment
+        //a+=b,a=a+b
+        //b+=a,b=b+a
+       // a=8,b=8
+       // a=a+b,a=8+8,a=16 ,b=8
+        a+=b;
+        document.write("after a+= b, a ="+a+"<br>");//16
+        document.write("after a+= b, b ="+b+"<br>");//8
+        //a=16,b=8
+        a-=b;//a=a-b,a=8,b=8
+        document.write("after a-= b, a ="+a+"<br>");//8
+        document.write("after a-= b, b ="+b+"<br>");//8
+        //a=8,b=8;
+        b*=a;//b=b*a,b=8*8,b=64,a=8
+        document.write("after b*= a, a ="+a+"<br>");//8
+        document.write("after b*= a, b ="+b+"<br>");//64
+        b/=a;//b=b/a,b=64/8,b=8,a=8
+        document.write("after b/= a, a ="+a+"<br>");//8
+      
+        document.write("after b/= a, b ="+b+"<br>");//8
+        b**=a;//b=b**a,b=8**8,b=8,a=8
+        document.write("after b**= a, a ="+a+"<br>");//8
+        document.write("after b**= a, b ="+b+"<br>");//16,777,216
+
+
+
+
+
+    </script>
+</body>
+</html>
